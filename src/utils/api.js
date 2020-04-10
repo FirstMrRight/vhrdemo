@@ -26,10 +26,11 @@ axios.interceptors.response.use(success => {
     }else if (error.response.data.status==401){
            Message.error({message:'尚未登录，请登录'})
     }else {
-        if(error.response.data.msg)
-        Message.error({message:error.response.data.msg})
+        if(error.response.data.msg) {
+            Message.error({message: error.response.data.msg})
+        }
         else {
-            Message.error({message:'未知错误'})
+            Message.error({message:'未知错误,'+error.response.data.msg})
         }
     }
     return;

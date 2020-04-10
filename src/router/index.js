@@ -2,8 +2,6 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Login from "../views/Login";
 import Home from "../views/Home";
-import Test1 from "../views/Test1";
-import Test2 from "../views/Test2";
 Vue.use(VueRouter)
 const routes = [
   {
@@ -17,22 +15,7 @@ const routes = [
     name: '主页',
     component: Home,
     hidden: true,
-  },{
-    path: '/home',
-    name: '主页',
-    component: Home,
-    children:[
-      {
-        path: '/test1',
-        name: '页面一',
-        component: Test1,
-      },{
-        path: '/test2',
-        name: '页面二',
-        component: Test2,
-      }
-    ]
-  }
+  },
 ]
 
 const router = new VueRouter({
