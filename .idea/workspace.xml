@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1210c0ff-a36e-4adb-aa7f-8ebb244595f3" name="Default Changelist" comment="页面新增,基础信息设置/职位管理批量删除功能完成">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vuehr.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/0bd714d76eaa6b27c6f97754c5ffec8f4d49a872.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/0d7be64d62ea6efdcfd69e4b8ab3f1f83de6395e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/1958eba057054fc55b17366c46bebb05cfee227b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/1a1f23bcb689de48268f15a2143cf3312419ab0e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/207f9fd5ef13da1dffd3803d873d49c4ec5cdb72.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/219d7aaff469004291527a64621f331aea1dbd4c.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/22ec83bdea5732969ca0b0256ea17ac82a1642d0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/23141e79f8d42df0e3246325e4701d46f308689e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/264f68f41beafc007abadb2d9f38931703072ef0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/28b8ffbcc8bca69c44c46da8d60dc251e21626d4.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/2f953a1efb84643fee54e3ad21c90d3c897c2242.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3886ea55bcd171a69185f6e5c3973df19ff2adde.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3a7dc0fa03d0dcaca70f2c65d9276b9888e9d361.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3a813a88f2ed1eff1ee561258900a4924fab835b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3b80cefc8a69e12a73c0be81a06e7e60e676033f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3c26e699ce229cbf1918a7ee079bf39becc841dd.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3c78acada28357fb9547a12e932bbcd704f7cee0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3d1cfef14582bb3bd874b5c9e66471cf3cae3192.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/403f2172fd67bf420da30d8f6e0de0a9a9dacb28.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4565d6386ef916d22297837906ffcedcd3e44b57.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/49434e6fa76e0636b2d47e4dfba83ac881b2c82c.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/50b18f418fe45c77253ce44854dca7505170eeaf.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/52c43648f707dba29de6810f1a0984ede23212ea.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/535de2c06ce180b76c858d18d5abe5e29d61a1e0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/5662881d3b9d39ad554070c2a113f710fd2fb2ac.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/5c4200c58d84ba22e7bfd4b31e56d604999fd1b0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/5df3d18135563b7cf3de20c93980542fe13e61d2.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/63aee878feb09fa9adaefe2dc88cba24ae392000.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/6971e511cee349481c195a34f171a9fcf5b7a50e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/6a1c22688109b3d52b8067d1f011a530b01250cc.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/6b4f1e1981af29943c577bdce4312627c9b60bee.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/77d4aa93f327e65a1c793c9ae1abda5db5bfa3ff.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/86861fa0bb3f250e189d3f3a5176e31b8807d711.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/8695989db448363ef0aa13d6dd24c92e81563a7f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/8cd9a468c1cb3cd1aaa409d4024c4c46b2672b25.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/9fc71d134d01a847f614b239430966767552417e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a18228bb9c8824a657186922edfbd3d4dbe43a77.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a21090556bcf182c68fb9824dc5c0493b427fc90.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a90068b467385f2f6cf1d66274f2341b2c13d253.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b8601f2c3b3a9f820a663ed0767c1fe7ff009191.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/bcfc50d1fc740fe4d61b7862363ee4e40f5d01b1.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c0ff4feec08ec7e720ec71430d4f262fbb1905be.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c31420c8bb825bd3c8ad036a2207773ab214b602.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c35276ae69d7b64d26415e0d54462e4a098efb30.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c4fba2b49adb2619aa59a776cabceff316ab3765.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c619f9436cb5dceede443e08b3344737aaecd68e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/cb65ddb519d197b5a8d67f67ecc65b73bc9b3fbc.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/cdb0b28ecf1418ec5ce8c9ae7465f152bb3fbb87.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/cdde49dc98f06517376619d28034147771bb94c5.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/cf6a0b952b5a525897257c59536412986369407a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/d05a8d70bae959edfad967b38d21cc1ed7afebbd.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/d1673565e4dd8dc347cb61a498ab2df912fbae7e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/db8c9ab0741dd59ecd8a1c5bb76aa82cdbcb1c66.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/dee0e0bbc91cd8561d78ddad77018e81c6a7dfa1.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e69bd3ddb28bbdfca3cf7e59d3566f0a185be63d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e81278b6111b8be27f30e7176ba8f67a7a3eff25.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/f32d6ce0f158a5a0957422f43ec34662cb6ccf45.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/fdf555eab2e2ee559185bc8c8e9bbded2fac0a7b.json.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6efa0bfa7ff965fbbe9667aba1ad2089.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6efa0bfa7ff965fbbe9667aba1ad2089.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cd99c6509a8b89aaecacdf35c71fde73.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cd99c6509a8b89aaecacdf35c71fde73.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/205f0c07a458719140c954361d74f0fd.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/205f0c07a458719140c954361d74f0fd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/291f5842cdef51f75d78a82687ced680.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/291f5842cdef51f75d78a82687ced680.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/2b8443e438d40fbfee3b2dbb1aa2d896.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/2b8443e438d40fbfee3b2dbb1aa2d896.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/7a2b73944dabea18e5cc249bdca9f21f.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/7a2b73944dabea18e5cc249bdca9f21f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/ae6ea333f636430ee2d76a2033937d86.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/ae6ea333f636430ee2d76a2033937d86.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/af12ed7d3140961f6c29e95b8eea0eeb.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/af12ed7d3140961f6c29e95b8eea0eeb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/af4610ca566c2cddabd986c653560d6f.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/af4610ca566c2cddabd986c653560d6f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/eec43a2bb7b183624417d502a80a46d1.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/eec43a2bb7b183624417d502a80a46d1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/fb2c45f2dad97880dc94e96ba942286e.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/fb2c45f2dad97880dc94e96ba942286e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/sys/basic/JobLevelMana.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/sys/basic/JobLevelMana.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="XSLT Stylesheet" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="9b77c924-9bbe-4b13-b872-e0da3dcc5c97" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/views/Home.vue" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\vuehr\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZbGeNdM0zzIj0xgxxIYhfnqBFL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\vuehr\src\utils" />
+      <recent name="G:\vuehr\src\router" />
+      <recent name="G:\vuehr" />
+      <recent name="G:\vuehr\src\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\vuehr\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm serve">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm serve" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1210c0ff-a36e-4adb-aa7f-8ebb244595f3" name="Default Changelist" comment="" />
+      <created>1585100474164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585100474164</updated>
+      <workItem from="1585100476094" duration="5086000" />
+      <workItem from="1585116411576" duration="2434000" />
+      <workItem from="1585182688032" duration="20241000" />
+      <workItem from="1585269907780" duration="1894000" />
+      <workItem from="1585991646710" duration="6480000" />
+      <workItem from="1586047241847" duration="2861000" />
+      <workItem from="1586135251067" duration="9701000" />
+      <workItem from="1586438391935" duration="40000" />
+      <workItem from="1586523401802" duration="5700000" />
+      <workItem from="1587298484299" duration="3065000" />
+      <workItem from="1588077909747" duration="2821000" />
+      <workItem from="1588080883203" duration="2185000" />
+      <workItem from="1588164444315" duration="3690000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始项目构建并引入vuex">
+      <created>1585188310029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585188310029</updated>
+    </task>
+    <task id="LOCAL-00002" summary="页面新增">
+      <created>1585202910466</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585202910466</updated>
+    </task>
+    <task id="LOCAL-00003" summary="页面新增">
+      <created>1585202986096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585202986096</updated>
+    </task>
+    <task id="LOCAL-00004" summary="页面新增,基础信息设置/职位管理批量删除功能完成">
+      <created>1586529477137</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586529477137</updated>
+    </task>
+    <task id="LOCAL-00005" summary="职位管理前端代码,没写完，还剩编辑">
+      <created>1588083765232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588083765232</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始项目构建并引入vuex" />
+    <MESSAGE value="页面新增" />
+    <MESSAGE value="职位管理前端代码,没写完，还剩编辑" />
+    <MESSAGE value="页面新增,基础信息设置/职位管理批量删除功能完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="页面新增,基础信息设置/职位管理批量删除功能完成" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Inspections" timestamp="1586159998375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Inspections/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586159998375" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585209483430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1585209483430" />
+    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1588165619229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="114" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588165619229" />
+    <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529484125" />
+    <state x="184" y="94" key="DiffContextDialog" timestamp="1586529291310">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="94" key="DiffContextDialog/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529291310" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1585186636068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1585186636068" />
+    <state x="835" y="411" width="273" height="291" key="Github.ShareDialog" timestamp="1586164099286">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="835" y="411" width="273" height="291" key="Github.ShareDialog/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1585186700898" />
+    <state x="835" y="411" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586164099286" />
+    <state width="1899" height="355" key="GridCell.Tab.0.bottom" timestamp="1588164836073">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836073" />
+    <state width="1899" height="355" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
+    <state width="1899" height="355" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
+    <state width="1899" height="355" key="GridCell.Tab.0.center" timestamp="1588164836073">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836073" />
+    <state width="1899" height="355" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543037" />
+    <state width="1899" height="355" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
+    <state width="1899" height="355" key="GridCell.Tab.0.left" timestamp="1588164836073">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836073" />
+    <state width="1899" height="355" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543037" />
+    <state width="1899" height="355" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
+    <state width="1899" height="355" key="GridCell.Tab.0.right" timestamp="1588164836073">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836073" />
+    <state width="1899" height="355" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543037" />
+    <state width="1899" height="355" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
+    <state width="1899" height="355" key="GridCell.Tab.1.bottom" timestamp="1588164836074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
+    <state width="1899" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
+    <state width="1899" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
+    <state width="1899" height="355" key="GridCell.Tab.1.center" timestamp="1588164836073">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836073" />
+    <state width="1899" height="355" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
+    <state width="1899" height="355" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
+    <state width="1899" height="355" key="GridCell.Tab.1.left" timestamp="1588164836073">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836073" />
+    <state width="1899" height="355" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
+    <state width="1899" height="355" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
+    <state width="1899" height="355" key="GridCell.Tab.1.right" timestamp="1588164836073">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836073" />
+    <state width="1899" height="355" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
+    <state width="1899" height="355" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
+    <state width="1899" height="355" key="GridCell.Tab.2.bottom" timestamp="1588164836074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.2.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
+    <state width="1899" height="355" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543039" />
+    <state width="1899" height="355" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431358" />
+    <state width="1899" height="355" key="GridCell.Tab.2.center" timestamp="1588164836074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.2.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
+    <state width="1899" height="355" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
+    <state width="1899" height="355" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431358" />
+    <state width="1899" height="355" key="GridCell.Tab.2.left" timestamp="1588164836074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.2.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
+    <state width="1899" height="355" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
+    <state width="1899" height="355" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
+    <state width="1899" height="355" key="GridCell.Tab.2.right" timestamp="1588164836074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.2.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
+    <state width="1899" height="355" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
+    <state width="1899" height="355" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431358" />
+    <state width="1899" height="355" key="GridCell.Tab.3.bottom" timestamp="1588164836074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.3.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
+    <state width="1899" height="355" key="GridCell.Tab.3.bottom/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543039" />
+    <state width="1899" height="355" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431358" />
+    <state width="1899" height="355" key="GridCell.Tab.3.center" timestamp="1588164836074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.3.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
+    <state width="1899" height="355" key="GridCell.Tab.3.center/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543039" />
+    <state width="1899" height="355" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431358" />
+    <state width="1899" height="355" key="GridCell.Tab.3.left" timestamp="1588164836074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.3.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
+    <state width="1899" height="355" key="GridCell.Tab.3.left/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543039" />
+    <state width="1899" height="355" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431358" />
+    <state width="1899" height="355" key="GridCell.Tab.3.right" timestamp="1588164836074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="355" key="GridCell.Tab.3.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
+    <state width="1899" height="355" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543039" />
+    <state width="1899" height="355" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431358" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1585186719912">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1585186719912" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588083378272">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588083378272" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529540956" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1586529514467">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529514467" />
+    <state x="636" y="119" width="647" height="801" key="find.popup" timestamp="1588081636800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="119" width="647" height="801" key="find.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588081636800" />
+    <state x="636" y="119" width="647" height="801" key="find.popup/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586527769526" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1588165590863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588165590863" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586157209213" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586155791738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586155791738" />
+  </component>
+</project>
