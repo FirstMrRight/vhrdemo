@@ -66,6 +66,10 @@
                     </template>
                 </el-table-column>
             </el-table>
+            <!--动态判断是否选中多选框中的数据-->
+            <el-button @click="deleteByBatch" type="danger" size="small" style="margin-top: 8px" :disabled="multipleSelection.length==0">批量删除
+            </el-button>
+
         </div>
         <el-dialog
             title="修改职称"
@@ -113,7 +117,7 @@
                 </table>
             </div>
             <span slot="footer" class="dialog-footer">
-    <el-button size="small" @click="dialogVisible = false">取 消</el-button>
+    <el-button ize="small" @click="dialogVisible = false">取 消</el-button>
     <el-button size="small" type="primary" @click="doUpdate">确 定</el-button>
   </span>
         </el-dialog>
@@ -209,7 +213,34 @@ export default {
                 })
             },
             handleSelectionChange(val){
-                multipleSelection=val;
+                this.multipleSelection = val;
+            },
+            //批量删除
+            deleteByBatch(){
+                // console.log(this.multipleSelection)
+                this.$confirm('此操作将永久删除【' + this.multipleSelection.length + '】条记录, 是否继续?', '提示', {
+                    confirmButtonText: '确定',
+                    cancelButtonText: '取消',
+                    type: 'warning'
+                }).then(() => {
+                    let ids = '?';
+                    this.multipleSelection.forEach(item =>{
+                        //url参数拼接
+                        ids += 'ids=' + item.id + '&';
+                        console.log(ids);
+                    })
+                        deleteRequest("/system/basic/joblevel/" + ids).then(resp => {
+                        console.log(ids);
+                        if (resp){
+                            this.initJls();
+                        }
+                    })
+                }).catch(resp => {
+                    this.$message({
+                       type : 'info',
+                        message : '已取消删除'
+                    })
+                })
             }
         }
     }
