@@ -10,7 +10,7 @@
             <el-button size="small" icon="el-icon-plus" type="primary">添加角色</el-button>
         </div>
         <div class = "permissManaMain">
-            <el-collapse accordion>
+            <el-collapse accordion @change="change">
                 <el-collapse-item :title="r.nameZh" :name="r.id" v-for="(r,index) in roles" :key="index">
                     <el-card class="box-card">
                         <div slot="header" class="clearfix">
@@ -18,7 +18,9 @@
                             <el-button style="float: right; padding: 3px 0; color: #ff0000;" icon="el-icon-delete" type="text"></el-button>
                         </div>
                         <div>
-                            //:todo
+                            <el-tree
+                                    show-checkbox
+                                    :data="allmenus" :props="defaultProps"></el-tree>
                         </div>
                     </el-card>
                 </el-collapse-item>
@@ -39,6 +41,11 @@
                     nameZh:''
                 },
                 roles:[],
+                allmenus:[],
+                defaultProps:{
+                    children : 'children',
+                    label : 'name'
+                }
             }
         },
         mounted(){
@@ -50,6 +57,15 @@
                     if (resp){
                         this.roles = resp
                     }
+                })
+            },
+            change(name){
+                //手风琴，打开时响应，关闭时不响应
+                this.initAllMenus();
+            },
+            initAllMenus(){
+                getRequest("/system/basic/permiss/menus").then(resp =>{
+                    this.allmenus = resp;
                 })
             }
         }

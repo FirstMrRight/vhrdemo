@@ -195,7 +195,6 @@
                 getRequest("/system/basic/pos/").then(resp=>{
                     if (resp){
                         this.positions=resp;
-                        console.log(resp)
                     }
                 })
             }
