@@ -45,7 +45,7 @@ router.beforeEach((to,from,next)=>{
   }
 })
 
-Vue.use(ElementUI);
+Vue.use(ElementUI,{size:'mini'});
 Vue.config.productionTip = false
 
 new Vue({

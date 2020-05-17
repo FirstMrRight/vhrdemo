@@ -10,7 +10,7 @@
             <el-button size="small" icon="el-icon-plus" type="primary">添加角色</el-button>
         </div>
         <div class = "permissManaMain">
-            <el-collapse accordion @change="change">
+            <el-collapse accordion @change="change" v-model="activeName">
                 <el-collapse-item :title="r.nameZh" :name="r.id" v-for="(r,index) in roles" :key="index">
                     <el-card class="box-card">
                         <div slot="header" class="clearfix">
@@ -20,7 +20,14 @@
                         <div>
                             <el-tree
                                     show-checkbox
+                                    node-key="id"
+                                    ref="tree"
+                                    :default-checked-keys="selectdMenus"
                                     :data="allmenus" :props="defaultProps"></el-tree>
+                            <div style="display: flex;justify-content: flex-end">
+                                <el-button size="mini" @click="canelUpdate">取消修改</el-button>
+                                <el-button size="mini" @click="doUpdate(r.id,index)">确认修改</el-button>
+                            </div>
                         </div>
                     </el-card>
                 </el-collapse-item>
@@ -30,7 +37,7 @@
 </template>
 
 <script>
-    import {getRequest} from "@/utils/api";
+    import {getRequest, putRequest} from "@/utils/api";
 
     export default {
         name: "PermissMana",
@@ -45,11 +52,13 @@
                 defaultProps:{
                     children : 'children',
                     label : 'name'
-                }
+                },
+                selectdMenus:[],
+                activeName:-1
             }
         },
         mounted(){
-          this.initRoles()
+          this.initRoles();
         },
         methods:{
             initRoles(){
@@ -59,15 +68,44 @@
                     }
                 })
             },
-            change(name){
+            change(rid){
                 //手风琴，打开时响应，关闭时不响应
-                this.initAllMenus();
+                if (rid){
+                    this.initAllMenus();
+                    this.initSelectedMenus(rid);
+                }
             },
             initAllMenus(){
                 getRequest("/system/basic/permiss/menus").then(resp =>{
                     this.allmenus = resp;
                 })
+            },
+            initSelectedMenus(rid){
+                getRequest("/system/basic/permiss/mids/"+rid).then(resp => {
+                    if (resp){
+                        this.selectdMenus = resp;
+                    }
+                })
+            },
+            //需要知道是点击修改的哪一个，id在上边的for循环中
+            //rid:角色id,找index中的一个，树上选中的一个
+            //tree 拿到的是一个数组，循环，13个，需要用到其中一个(index)
+            //展开项对应的tree
+            doUpdate(rid,index){
+                let tree = this.$refs.tree[index];
+                let selectKeys = tree.getCheckedKeys(true);
+                let url = '/system/basic/permiss/?rid=' + rid;
+                selectKeys.forEach(key=>{
+                    url += '&mids' +key;
+                })
+                putRequest(url).then(resp => {
+                    this.initRoles();
+                })
+            },
+            canelUpdate(){
+                this.activeName = -1;
             }
+
         }
     }
 </script>
