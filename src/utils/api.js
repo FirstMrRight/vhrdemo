@@ -26,7 +26,7 @@ axios.interceptors.response.use(success => {
         Message.error({message:'权限不足，请联系管理员'})
     }else if (error.response.data.status==401){
            Message.error({message:'尚未登录，请登录'})
-        router.replace("/")
+           router.replace("/")
     }else {
         if(error.response.data.msg) {
             Message.error({message: error.response.data.msg})
