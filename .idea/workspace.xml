@@ -1,84 +1,346 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1210c0ff-a36e-4adb-aa7f-8ebb244595f3" name="Default Changelist" comment="页面新增,基础信息设置/职位管理批量删除功能完成">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vuehr.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/00f5a31e8cd2f3ffbdced9a9434afcda99504301.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/012c3a9fe758b602e111b4f7d7dffa0f15719708.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/01cdb15578e0d7d4616f17a14935e9c9e5e9a3b8.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/01e3842c193e4bcb1e14e89ff25010e01d5e5c35.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/01f6fd5f822f74390d2110ac82607e946dd26f77.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/03dfcd07485e3c0b6f7c95c4c28cb99de58de838.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/0509fd84542ffa50572990c18118c0c674dfd75a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/064463b613a975f4f723497e5ba970cdbe820080.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/06886b023b4bdca3a9db98ba2b2a7c1477eecf62.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/076f97cc117c08f6c309589d2c8c329dd0a49496.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/07f8f5425d5e7fdd0e0708d3c728d535a734b7ad.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/08894e1c62181ecbf1f1ff5442a0840ff0409564.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/0bd714d76eaa6b27c6f97754c5ffec8f4d49a872.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/0bd8340190d7c4188c4108e01d2fb25e8ab97771.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/0ccd699cd17f870257bfac0b80334f1ded4afef8.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/0d7be64d62ea6efdcfd69e4b8ab3f1f83de6395e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/0d8b9b207899281af98d44b4ef80215f75924187.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/0e969adbc99f32bb87170b44218582faf974b153.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/0f0dcc42f3ddfcef82a226a9d6af24c02b65056b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/1289e65684fe5043fbb1ea17d6b76f53429d82ad.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/12fef85fd5f3578b82370aaacc2b7d149b2280c7.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/141cb3fceca59ea332c6aef9262c1c73d23beb0a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/14898869373b1beadc63cba23b67b479b8f3cb54.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/160de0fa6446c0c56f13073ddc53106730f3e177.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/165a715b2ea8d1115207858e6b76b94b86150ba9.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/16d02567253368d0a3d3135aa00f551254401732.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/17275a68a0906ae4cfe3a7107df7fc5410b8fadb.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/1958eba057054fc55b17366c46bebb05cfee227b.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/1a1f23bcb689de48268f15a2143cf3312419ab0e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/1a8a11a9dd7580ec3d965f23bd818c31a617d21b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/1af7ac00a50ba56d09d300ade7e3bd0d8b0f2932.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/1c30fe96a97ed8bbf57580bd9fba8898da9e573f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/1c9bda464c1dcbcf1062c9aac8a91f35ced18732.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/1d6d6a195bfd7983bd6a8c32ee9a9d8391dfe7ce.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/1d864fdbe42560ce621d8d9ca5a411c9bba94342.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/1ecac0547e6cffa782d5cdf109894c83be7fd324.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/204abdf32979093cd3b5eb77b6cf82c56020dae4.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/207f9fd5ef13da1dffd3803d873d49c4ec5cdb72.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/21396e02a328d234bbbe124bd21d5bc2ceda5767.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/219d7aaff469004291527a64621f331aea1dbd4c.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/22ec83bdea5732969ca0b0256ea17ac82a1642d0.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/23141e79f8d42df0e3246325e4701d46f308689e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/23821ca807ab86782aa118898bbdb87a579fe813.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/247e7b7ad52e1815dd451130b7d6cf2c8d484134.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/25c0aa10ad7ad3515656334fabc778325e9dd306.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/262cec2a217f6bfad6c2e547f065459ecdc26f44.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/26414305c5acfb4b09bbe834a814c06e3f84a4ca.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/264f68f41beafc007abadb2d9f38931703072ef0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/273a253c215bf5759289728aa376e26f3852f432.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/284a7c533aa3216966c8a9d4608145e05f4d0f0e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/2884fb603eedcf5be9a19b094648262e27c44731.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/28b8ffbcc8bca69c44c46da8d60dc251e21626d4.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/293a65cb3d7f37d7f2a439965ae396a3351269d6.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/2964926a3f51f4646e6f8f6059be365ea34646cf.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/29deb10629997f20cf2c2e22ad703ed5e41054e7.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/2a2c1eec3aed5cd94c60b07af4036fa2cc603a7e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/2a8d829f51209b2749148858a7be3b90771c1a8d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/2b604fc9ea9b250f3ebda9705e70b4c0ca0a82ec.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/2c497705f99abff88fe4d605810fa66f54958621.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/2c8d677196dfb18494b504c2a8fe6948e0c63f86.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/2e089a041403616274683f3e1c9599cdf4aab2b6.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/2f953a1efb84643fee54e3ad21c90d3c897c2242.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/332aa1505c83c6b7c1dbccea80cd9b087a93b49c.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/35ab5a7ab5e0e4d111f26ba988883643f3e0007c.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3687f528440b2fc590b4cf6c8647ed695a1b673f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/382a54d6b627e611b9d4fd77561d9f8ff87df82b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/38602b910fd0ea0df59cf126c65296459958dca0.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3886ea55bcd171a69185f6e5c3973df19ff2adde.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/391a784bf0d2828480ca97fa1a6d878827ff453d.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3a7dc0fa03d0dcaca70f2c65d9276b9888e9d361.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3a813a88f2ed1eff1ee561258900a4924fab835b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3adb6574cb6658ceefb6cf29b807f0ba8a5301ae.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3b6573a86d8eabcc3d2067d93743da1d418f5cf8.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3b80cefc8a69e12a73c0be81a06e7e60e676033f.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3c26e699ce229cbf1918a7ee079bf39becc841dd.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3c2f2649005375b3155e7196a9347c974e1a560c.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3c78acada28357fb9547a12e932bbcd704f7cee0.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3d1cfef14582bb3bd874b5c9e66471cf3cae3192.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/3fbb9bd4af8de99ae1a9fa20340fb25bde99f77b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4014c693c9c1d904671d6028b83477cc5bbae921.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/403f2172fd67bf420da30d8f6e0de0a9a9dacb28.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4105927e3e225177868258cb8494726cb5c10a48.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4236923e2a84bd0f95c31f4258aed9fe2229b9fd.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/42df72e973ed26ae766f90b330c8ae7c38070f27.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4351618338b9ae383aa132ad7eb206889262065a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4464433f8d50fed6a252a7babc6f64c17d28217d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/44ce5ed3848225af48a9fd92a98a019b06199276.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4565d6386ef916d22297837906ffcedcd3e44b57.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/49434e6fa76e0636b2d47e4dfba83ac881b2c82c.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4a2360faf08ceaf488e39b80f836ba2721d2d522.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4aa7f07d36802d0001f0cac195d73fabc417841c.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4ad4e4ef8e2b06b86695351b952569cd677e1229.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4aef975a920c4723069325d76d775051bed46190.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4c189b48a492d65cace1702ff4da09217526c8c5.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4d8113319c7451d7d47ec279f75d646a5a82e6d7.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4e14cac15d007c4a1b9fec5930a9c23e3dbe04c7.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4e3aad3e8ac9c634b9b763d1e6f0afc9ddd285f8.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4eb53ec3607e0856b2bbfbbc60d8aca0af96dc87.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/50b18f418fe45c77253ce44854dca7505170eeaf.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/514fdf62aff1b36dfc3c439c668f765da1b07e13.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/52b26377ff6fecd69d5733ae908291d7ee338b7a.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/52c43648f707dba29de6810f1a0984ede23212ea.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/52e9185802f5b204837863d6d4bd0319ed91da87.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/530a4cf1ee06b710bf4e20eb7263fb1885d93ec3.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/535de2c06ce180b76c858d18d5abe5e29d61a1e0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/53c6d2928a334adebb0128898f4d386986616500.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/53e5400b1f5e1a83cdad31ac42448042004a57f4.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/557ddbbc037e0aa7817643af9f36e98dec807051.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/5662881d3b9d39ad554070c2a113f710fd2fb2ac.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/56cf6d4b399c284c5a76b0a0ee764bca8f195fc2.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/58636aaa7df2f7aea1bf5d976f24b6c605aacea7.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/5af3d415f1925a6e5bdf3ea6d478fb9e8b94d33b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/5af954507faac3f4780e4d29ad8502dbf35f5d44.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/5b77c2cef1bbd0b6ebcc366478424a6936283b44.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/5c079ac7449d2efc10024f24a484e6460e6c5a83.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/5c4200c58d84ba22e7bfd4b31e56d604999fd1b0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/5d173a0b0277355c38162cfbfe99ee87f2d9fbf7.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/5df3d18135563b7cf3de20c93980542fe13e61d2.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/5f75e98e4e6ca90a7d0f91bc7038b89f5856a3cc.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/60ad3ce00703571017f2621757b19507a539a685.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/62357287db711a44261ae2491d8665c7b33f71af.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/6397edc097dfbe25ef4b47816081c6d539c8a5a6.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/63aee878feb09fa9adaefe2dc88cba24ae392000.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/63eec2eff1dbffe590584245af75bca746b83ad2.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/646fad0361837df7f758aec5ec14e36a75ceb69f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/66e8d022cf18198161dd28405b4639eec61c331b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/67af04fd37e70489f72f859b288efa52e4409a20.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/688762189476299084ceeb24afcd0af31b8ff99e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/689cbf6b668cf13aadf7b1053a1a0dda28607b93.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/68b5a6f47bb0784423a0958e0d3f05ffb1567f01.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/691a0d9bdefa9086a3f12628d2d84ad36212af45.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/6971e511cee349481c195a34f171a9fcf5b7a50e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/69c8f4ceb640e01c0e1ae9d309bc16c983f7794d.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/6a1c22688109b3d52b8067d1f011a530b01250cc.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/6abae99a5184885f3a4a6c684bfd2034fb2da97e.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/6b4f1e1981af29943c577bdce4312627c9b60bee.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/6e3d67c53ba8d69e4e8f0356ddd9c965dfd0aaef.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/6f95d5f1b00533a74982a690e9c71c751dc3e5fc.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/700ce028af3516ef8205c43936c88e91e5a9c83e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7173d4d9c7d9a83fefc27525c9e98986832ecbc8.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/71d3eb1a52bc2416b9afe470bdec174e1b5ca549.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/73f29d61492feaa12eff26f6b9b3151ffff69c61.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/761c162d727233ae5ed709b786d4cc1be3985a91.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/763ad09480b8750adfbc2daa1569f1b4400f340d.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/77d4aa93f327e65a1c793c9ae1abda5db5bfa3ff.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/78aa675c8e1e9098db28cf495c4a234f4a5a04ca.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7a384b8aa8db4b1e8c4f50ae9c3e2446ad5448dd.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7a7df18bb115c3c1a11171a9d1726d0ab1780af7.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7b0a75cbd1a26a567c139a4660c2c01477834a94.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7bd0c089d0babefd0fd722d2f7ca0654dfdc10a1.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7c12e65649ac7e530d0915ba0a12c80de6275222.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7c9c01b25f318e678cf1e082f663ea6ba5b473b3.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7ca6e0c43d4d916ba03a7e48107133e21973169e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7d91c20dab60402f639f8a276420b5f1043def05.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7dc6645ace7eec6b28b8f4c09fc118f9617b6bab.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7df85cd6e208d7b27ab64cfc667a481dcc9313c9.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7ec4a50a35b51595476632ea5f2173a9e883cbab.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7ec79c09be4901b412a7024a678d56111238201b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7ee91a4b32a0ff42835e4f110e21061d30514c9a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7f598ceaf59d38b93ab8af07bfe3ed388f24cb81.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7f7c22c3e76083e9eb43a28a65cfdfa69410397e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/8205713eea6aa960905037689810cf6eebf09e32.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/821626bcd3f0411910c25221c34fd2387beb68f5.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/837ad1e741f043ba4e7d012c5c2e2f11a67d436f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/84546547ce393f8d61cb891b5517df74131df897.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/85736b7b43f03de3a34b30cd3959fabeeacd718d.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/86861fa0bb3f250e189d3f3a5176e31b8807d711.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/8695989db448363ef0aa13d6dd24c92e81563a7f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/87bf0c814bf94d92ab5c734c0233fc189616595d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/889de3eb83576f298702a6dca77342cc1861a399.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/8a184097b70a3e65f6e57a3a820361d18e5b2d49.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/8a568dc3adb0ec4e16b2d677df09d6f58dcad764.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/8cd9a468c1cb3cd1aaa409d4024c4c46b2672b25.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/8efc2fa48562417387c47539d00a85a7024b5a22.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/8fcf8f689bf6d02df6dffc13e2359f392d3519e2.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/9254219bc0b31731af8458cc5841147fe9be6283.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/934ddd76ce38e127366f0190aa7789dde34651d3.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/9397bfc1f486160eb0b30b1c41c21782636043e2.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/9528e110a38d15ec4a5a2289901b38e167f0b31a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/97f598ac791edbb3a9ca620fe4f58a06c83ea396.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/9b253bbb170ec462f486d1379f2b5a6e2b44d857.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/9b5c73f4bb610e6cc9f2d0d27d508c8e6e213996.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/9d3f1173a6492a55a178aeacd2d7ec1c6cc2c587.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/9fc71d134d01a847f614b239430966767552417e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a08e7aef3d93d0fe05ae952e0b7661a34387ec63.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a18228bb9c8824a657186922edfbd3d4dbe43a77.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a21090556bcf182c68fb9824dc5c0493b427fc90.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a283e83f1b2f1d14a15c3c9878b314049802f7f7.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a36eb20a02f5deac1dd5066ea77a8b0a8dcd5a05.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a484d62644e4121aeb1e935d3efa3c475a021480.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a5a81c1dec6ef6c58aa4ac6fa65dbed409fd6b87.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a8b2fd9a2f5312f78081335272dbd015eb73dd86.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a90068b467385f2f6cf1d66274f2341b2c13d253.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a9618a2d1a6e55793a8e6bcc4b73fcf3071fe6a9.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/a963c57da5bf5209494ef740f6ed977b543829b5.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/aa54f55d401e969a85d88ccb94edcb3ba9146386.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/ab7c46a38ab9ac2e2024c02929a4d821a63e9e6f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/ac287d486bf343eec477cc59b66ca114ffe9fcab.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/ac4b85374284fe02e3178be06db21f84b9cd0863.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/ad1ab19ebe537ffed070993ea51fc6603a2aa757.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/add3015424c9d56880569699b141836e5d534425.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/ae453708aa802dbd72a8d647d321954c3b4953bb.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b0093ff164634f4414e4c2c38c44976d865b5e63.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b0494d679067db4c4f72727bd303c20720d05a38.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b07f7b4af1c57ce5f2fb432acd2ed03c2204a018.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b27302c14f86a3ac61a1a653ba6ffdcb3e8b09f1.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b2d3241eb711defd28c714f2f00522334eca4bb5.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b361725b2c97b1fcd59660108fefa4698c64e12e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b43e071480475872515b08e62a9e8660c7bcc0b4.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b5a2c4218892f80df32c440f0e072af701745959.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b6067fa284cfbba1e88c4dcfd9d1341740b05162.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b626bd2773b69e93e706b4cbd4c3474ecb44d76f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b67af7efa2fa41b114ca3475e8a5f1734ceca9ed.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b6ff8eaed84d58620900bb09a343753fa8cf5b3b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b7ce39816ca4119a8d4cd4272c9cb89f34ae6b41.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b8601f2c3b3a9f820a663ed0767c1fe7ff009191.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b95eec3e88e65d7d00e71a43e90bd724c1ebe1d9.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b9e359510eee5bfd9e1b5974cf435c67585d3ca2.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/bcfc50d1fc740fe4d61b7862363ee4e40f5d01b1.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/bd92beaba5169e16417736a4ffe9e6a34fa448cd.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/bede7a43ee827b0118effbe004276e3e924422cf.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c0ff4feec08ec7e720ec71430d4f262fbb1905be.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c11c0fca605ad7301914e7af9c8cc6d03707845b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c226ab2c0acf599e50f452777778e574a1baa45d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c257b1a6f5e8433301e0f9becbb76542d68be260.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c31420c8bb825bd3c8ad036a2207773ab214b602.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c35276ae69d7b64d26415e0d54462e4a098efb30.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c4fba2b49adb2619aa59a776cabceff316ab3765.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c619f9436cb5dceede443e08b3344737aaecd68e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c61ec5d355c5f387b9d9ff8a29c4ea318974dabe.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c750e0be01ac90a57651ed8e3839b3a9fb0f9265.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c79b1277774bd2c64c65a36d4b393fba6d949313.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c79d697b63d7e68d466c4467774a62f083506bb6.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c8d442cfe13d524fc8606cff8f0b13f25d58eb09.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c94f12c5df9d9caa69810b2bc021c4a6f9a11804.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/c9df6e58f28b0bbc5e44339e38c0518bcc381bfe.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/ca252e6dded77b36a8178ad3a19339642036888c.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/cb65ddb519d197b5a8d67f67ecc65b73bc9b3fbc.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/cb661a8e8f3a40ba40f45d1a6faec381936cbe37.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/cdb0b28ecf1418ec5ce8c9ae7465f152bb3fbb87.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/cddae22a1e782fc9132cdb86a8a1064968c9bc56.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/cdde49dc98f06517376619d28034147771bb94c5.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/cf01b68313827eaba48461994ad5ef5c3bcf35f5.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/cf1c34b8d03e558bff5e4699322ec1b47bf3c070.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/cf6a0b952b5a525897257c59536412986369407a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/cf8df7a0f4c51470e9333d1c59aea13fabafdd60.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/cfa7e64669c46c94e7ad38153fd7b47b53529eaf.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/d05a8d70bae959edfad967b38d21cc1ed7afebbd.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/d1673565e4dd8dc347cb61a498ab2df912fbae7e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/d18698ad69226b881d2941c0b088d22e01d6c6be.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/d3931aa6a4033bd09a25f996365f435b98b02e31.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/d39eff1bd377108e87436e1ea4edcbe73d0efa08.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/d4850a2038ab6816b98f175f4c5e7afd092beccc.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/d6d9d2b424356970e4c00e8054613f5fa0429005.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/d777151fd0b35668278b73a61d48264081d216fa.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/d7ac2f7363405609e84fc1b7833f539e72c0232a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/d8e91502168892ee087e2866e32c80146fecfe2e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/db72d060685664e8ea6a80df6d3f45298c613aa2.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/db8c9ab0741dd59ecd8a1c5bb76aa82cdbcb1c66.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/dc93ed1dc388405356f45c5fd3339dcfec0e5d7a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/dd58d241daf6663ffbe71be1c687e2b29c73e6a2.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/dd726f202282f5a0acc33e601f6ae87e711370ce.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/ddb79ad7fa8fbe663f3e3eb626e51bd9655f73ce.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/dee0e0bbc91cd8561d78ddad77018e81c6a7dfa1.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/dfc1471d53ffc86743b1cc68bdf395b29a36c1b3.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e01348d2ec2baea65391366a3a3e369532859f79.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e2bb89873ac5bf24c6680c4d18b34b91a78d5a02.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e3c56bc7322d3ead007f90f60d59714ca72ca27d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e3d38f71311be7b42b02bff09f698a82569f93ec.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e4f32bffccd0db05217eef0693a6949cb6c7c631.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e5085a3594d2b4f092463142c77592e3501a4ec5.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e52318b5a4323dfece21dfd3eecb60ab9bd4a29a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e5f5fe0c5db6960d2e358e68b6121388c024926f.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e69bd3ddb28bbdfca3cf7e59d3566f0a185be63d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e6a3167e48b02b531acfc3f05f00f326f7069ab9.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e752e560227cb4d797158d10a285c3e67cacee04.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e81278b6111b8be27f30e7176ba8f67a7a3eff25.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e81c0d064a1126f5e3641435851fd58855e75652.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e9d5321668a50e7d9b8ed71fcb2540434ddbdd41.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/ea81987fe4302c665f9f76cafcd6213eea1c0451.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/ec4f0c381e17947c7c2c5c80162232eeffdbfddd.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/ececd4144bb088e9b2674bcbb487647e989ec403.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/eda63a90fd1f68b9d0e559637d3a6206bc53d35f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/ef3cf6ffae1913299839f8810dcabe91f3a2b09c.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/f043ecf3d208bc8d63895bb0df485dc7e1987ec0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/f0decbfcbeba4f2e0df9acb27dbf6649c93f463b.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/f32d6ce0f158a5a0957422f43ec34662cb6ccf45.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/f4455a442dc43e9db2fd626df466d6e05bf7be73.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/f5ae4c44cfa6d3ce9a0d7c8eda2bce464bf69f6d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/f6078c6c4e39e57350e106eed4109e40501e55b3.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/f619790f05addbf68037689aa4cb8a6708d2a98d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/f6d854cf35a402a3ffd146c1b45bdcaa2d364262.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/f8d6095eab5307570681736d4f253bd6a88cd5ca.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/f981a9efe3b4d7d0008d7d1eeb52096a170c707b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/f9fa057e32c947a0b2699a94af34def4b8640dc5.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/fa89cf2780384bbdbd27490b7eaab870de705e94.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/fa90172ee781caf35c3b6d2d36e7511aba62e87f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/fcfa43e33efa47e55727c65e155a940418736604.json.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/fdf555eab2e2ee559185bc8c8e9bbded2fac0a7b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/678719617da999a3aac07ef165fa131b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6fbc36c8586c3457a98906707fb1383c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/a3d571e5511c397d58eeba74543bd896.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6efa0bfa7ff965fbbe9667aba1ad2089.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6efa0bfa7ff965fbbe9667aba1ad2089.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8b80cc740fa7095c2792e9a5ad75a895.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8b80cc740fa7095c2792e9a5ad75a895.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bb0ccaee3856863405ccf856e253e3ac.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bb0ccaee3856863405ccf856e253e3ac.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cd99c6509a8b89aaecacdf35c71fde73.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cd99c6509a8b89aaecacdf35c71fde73.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/205f0c07a458719140c954361d74f0fd.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/205f0c07a458719140c954361d74f0fd.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/291f5842cdef51f75d78a82687ced680.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/291f5842cdef51f75d78a82687ced680.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/2b8443e438d40fbfee3b2dbb1aa2d896.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/2b8443e438d40fbfee3b2dbb1aa2d896.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5a5e6abcbd7f2bb523de0271d263f316.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5a5e6abcbd7f2bb523de0271d263f316.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5b38899a48a182891488f543c70419b0.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5b38899a48a182891488f543c70419b0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6e33e36a862e028cb2e5b213d481cea0.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6e33e36a862e028cb2e5b213d481cea0.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/7a2b73944dabea18e5cc249bdca9f21f.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/7a2b73944dabea18e5cc249bdca9f21f.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/ae6ea333f636430ee2d76a2033937d86.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/ae6ea333f636430ee2d76a2033937d86.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/af12ed7d3140961f6c29e95b8eea0eeb.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/af12ed7d3140961f6c29e95b8eea0eeb.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/af4610ca566c2cddabd986c653560d6f.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/af4610ca566c2cddabd986c653560d6f.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/eec43a2bb7b183624417d502a80a46d1.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/eec43a2bb7b183624417d502a80a46d1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f4c7b0080b6339a1aa0e0541d3d1224b.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f4c7b0080b6339a1aa0e0541d3d1224b.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/fb2c45f2dad97880dc94e96ba942286e.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/fb2c45f2dad97880dc94e96ba942286e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/sys/basic/JobLevelMana.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/sys/basic/JobLevelMana.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,24 +365,19 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/views/Home.vue" root0="SKIP_INSPECTION" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="G:\vuehr\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1ZbGeNdM0zzIj0xgxxIYhfnqBFL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/GitDown/Vhr/new/vhr/vuehr" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -135,7 +392,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -198,7 +455,19 @@
       <workItem from="1587298484299" duration="3065000" />
       <workItem from="1588077909747" duration="2821000" />
       <workItem from="1588080883203" duration="2185000" />
-      <workItem from="1588164444315" duration="3690000" />
+      <workItem from="1588164444315" duration="3907000" />
+      <workItem from="1588168675511" duration="21000" />
+      <workItem from="1588770020477" duration="3438000" />
+      <workItem from="1588942927141" duration="3350000" />
+      <workItem from="1589118000331" duration="138000" />
+      <workItem from="1589200787122" duration="3924000" />
+      <workItem from="1589291272473" duration="123000" />
+      <workItem from="1589464834536" duration="1735000" />
+      <workItem from="1589466777218" duration="306000" />
+      <workItem from="1589698803431" duration="11077000" />
+      <workItem from="1589712657976" duration="13000" />
+      <workItem from="1589806461607" duration="620000" />
+      <workItem from="1589807485111" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="初始项目构建并引入vuex">
       <created>1585188310029</created>
@@ -235,169 +504,292 @@
       <option name="project" value="LOCAL" />
       <updated>1588083765232</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="页面新增,基础信息设置/职位管理批量删除功能完成">
+      <created>1588168408684</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588168408685</updated>
+    </task>
+    <task id="LOCAL-00007" summary="页面新增,基础信息设置/职位管理批量删除功能完成">
+      <created>1588168506165</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588168506165</updated>
+    </task>
+    <task id="LOCAL-00008" summary="新增职位模块">
+      <created>1589118092186</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589118092186</updated>
+    </task>
+    <task id="LOCAL-00009" summary="up">
+      <created>1589291329572</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589291329572</updated>
+    </task>
+    <task id="LOCAL-00010" summary="权限组手风琴对接up">
+      <created>1589467032451</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589467032451</updated>
+    </task>
+    <task id="LOCAL-00011" summary="修改权限模块，前端显示修改成功，后端事务可能有问题">
+      <created>1589713022153</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589713022154</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:G:/vuehr/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始项目构建并引入vuex" />
     <MESSAGE value="页面新增" />
     <MESSAGE value="职位管理前端代码,没写完，还剩编辑" />
     <MESSAGE value="页面新增,基础信息设置/职位管理批量删除功能完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="页面新增,基础信息设置/职位管理批量删除功能完成" />
+    <MESSAGE value="新增职位模块" />
+    <MESSAGE value="up" />
+    <MESSAGE value="权限组手风琴对接up" />
+    <MESSAGE value="修改权限模块，前端显示修改成功，后端事务可能有问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改权限模块，前端显示修改成功，后端事务可能有问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Inspections" timestamp="1586159998375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Inspections/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586159998375" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589698923422">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589698923422" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585209483430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1585209483430" />
-    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1588168406232">
+    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1589713018636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="114" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588168406232" />
+    <state x="560" y="114" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713018636" />
     <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529484125" />
-    <state x="184" y="94" key="DiffContextDialog" timestamp="1588168476467">
+    <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589467029357" />
+    <state x="184" y="94" key="DiffContextDialog" timestamp="1589291320930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="94" key="DiffContextDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588168476467" />
+    <state x="184" y="94" key="DiffContextDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588168547004" />
     <state x="184" y="94" key="DiffContextDialog/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529291310" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1585186636068">
+    <state x="184" y="94" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589291320930" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1589204350186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589204350186" />
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1585186636068" />
     <state x="835" y="411" width="273" height="291" key="Github.ShareDialog" timestamp="1586164099286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="835" y="411" width="273" height="291" key="Github.ShareDialog/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1585186700898" />
     <state x="835" y="411" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586164099286" />
-    <state width="1899" height="355" key="GridCell.Tab.0.bottom" timestamp="1588164836073">
+    <state width="1899" height="355" key="GridCell.Tab.0.bottom" timestamp="1589807082317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836073" />
-    <state width="1899" height="355" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
-    <state width="1899" height="355" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
-    <state width="1899" height="355" key="GridCell.Tab.0.center" timestamp="1588164836073">
+    <state width="1899" height="355" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057577" />
+    <state width="1899" height="355" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503257" />
+    <state width="1899" height="355" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082317" />
+    <state width="1899" height="355" key="GridCell.Tab.0.center" timestamp="1589807082317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836073" />
-    <state width="1899" height="355" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543037" />
-    <state width="1899" height="355" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
-    <state width="1899" height="355" key="GridCell.Tab.0.left" timestamp="1588164836073">
+    <state width="1899" height="355" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057577" />
+    <state width="1899" height="355" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503257" />
+    <state width="1899" height="355" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082317" />
+    <state width="1899" height="355" key="GridCell.Tab.0.left" timestamp="1589807082317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836073" />
-    <state width="1899" height="355" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543037" />
-    <state width="1899" height="355" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
-    <state width="1899" height="355" key="GridCell.Tab.0.right" timestamp="1588164836073">
+    <state width="1899" height="355" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057577" />
+    <state width="1899" height="355" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503257" />
+    <state width="1899" height="355" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082317" />
+    <state width="1899" height="355" key="GridCell.Tab.0.right" timestamp="1589807082317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836073" />
-    <state width="1899" height="355" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543037" />
-    <state width="1899" height="355" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
-    <state width="1899" height="355" key="GridCell.Tab.1.bottom" timestamp="1588164836074">
+    <state width="1899" height="355" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057577" />
+    <state width="1899" height="355" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503257" />
+    <state width="1899" height="355" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082317" />
+    <state width="1899" height="355" key="GridCell.Tab.1.bottom" timestamp="1589807082318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
-    <state width="1899" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
-    <state width="1899" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
-    <state width="1899" height="355" key="GridCell.Tab.1.center" timestamp="1588164836073">
+    <state width="1899" height="355" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057577" />
+    <state width="1899" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503258" />
+    <state width="1899" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082318" />
+    <state width="1899" height="355" key="GridCell.Tab.1.center" timestamp="1589807082318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836073" />
-    <state width="1899" height="355" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
-    <state width="1899" height="355" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
-    <state width="1899" height="355" key="GridCell.Tab.1.left" timestamp="1588164836073">
+    <state width="1899" height="355" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057577" />
+    <state width="1899" height="355" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503257" />
+    <state width="1899" height="355" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082318" />
+    <state width="1899" height="355" key="GridCell.Tab.1.left" timestamp="1589807082317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836073" />
-    <state width="1899" height="355" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
-    <state width="1899" height="355" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
-    <state width="1899" height="355" key="GridCell.Tab.1.right" timestamp="1588164836073">
+    <state width="1899" height="355" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057577" />
+    <state width="1899" height="355" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503257" />
+    <state width="1899" height="355" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082317" />
+    <state width="1899" height="355" key="GridCell.Tab.1.right" timestamp="1589807082318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836073" />
-    <state width="1899" height="355" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
-    <state width="1899" height="355" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
-    <state width="1899" height="355" key="GridCell.Tab.2.bottom" timestamp="1588164836074">
+    <state width="1899" height="355" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057577" />
+    <state width="1899" height="355" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503258" />
+    <state width="1899" height="355" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082318" />
+    <state width="1899" height="355" key="GridCell.Tab.2.bottom" timestamp="1589807082318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.2.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
-    <state width="1899" height="355" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543039" />
-    <state width="1899" height="355" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431358" />
-    <state width="1899" height="355" key="GridCell.Tab.2.center" timestamp="1588164836074">
+    <state width="1899" height="355" key="GridCell.Tab.2.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057578" />
+    <state width="1899" height="355" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503258" />
+    <state width="1899" height="355" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082318" />
+    <state width="1899" height="355" key="GridCell.Tab.2.center" timestamp="1589807082318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.2.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
-    <state width="1899" height="355" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
-    <state width="1899" height="355" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431358" />
-    <state width="1899" height="355" key="GridCell.Tab.2.left" timestamp="1588164836074">
+    <state width="1899" height="355" key="GridCell.Tab.2.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057578" />
+    <state width="1899" height="355" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503258" />
+    <state width="1899" height="355" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082318" />
+    <state width="1899" height="355" key="GridCell.Tab.2.left" timestamp="1589807082318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.2.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
-    <state width="1899" height="355" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
-    <state width="1899" height="355" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431357" />
-    <state width="1899" height="355" key="GridCell.Tab.2.right" timestamp="1588164836074">
+    <state width="1899" height="355" key="GridCell.Tab.2.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057577" />
+    <state width="1899" height="355" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503258" />
+    <state width="1899" height="355" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082318" />
+    <state width="1899" height="355" key="GridCell.Tab.2.right" timestamp="1589807082318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.2.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
-    <state width="1899" height="355" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543038" />
-    <state width="1899" height="355" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431358" />
-    <state width="1899" height="355" key="GridCell.Tab.3.bottom" timestamp="1588164836074">
+    <state width="1899" height="355" key="GridCell.Tab.2.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057578" />
+    <state width="1899" height="355" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503258" />
+    <state width="1899" height="355" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082318" />
+    <state width="1899" height="355" key="GridCell.Tab.3.bottom" timestamp="1589807082319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.3.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
-    <state width="1899" height="355" key="GridCell.Tab.3.bottom/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543039" />
-    <state width="1899" height="355" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431358" />
-    <state width="1899" height="355" key="GridCell.Tab.3.center" timestamp="1588164836074">
+    <state width="1899" height="355" key="GridCell.Tab.3.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057578" />
+    <state width="1899" height="355" key="GridCell.Tab.3.bottom/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503258" />
+    <state width="1899" height="355" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082319" />
+    <state width="1899" height="355" key="GridCell.Tab.3.center" timestamp="1589807082319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.3.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
-    <state width="1899" height="355" key="GridCell.Tab.3.center/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543039" />
-    <state width="1899" height="355" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431358" />
-    <state width="1899" height="355" key="GridCell.Tab.3.left" timestamp="1588164836074">
+    <state width="1899" height="355" key="GridCell.Tab.3.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057578" />
+    <state width="1899" height="355" key="GridCell.Tab.3.center/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503258" />
+    <state width="1899" height="355" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082319" />
+    <state width="1899" height="355" key="GridCell.Tab.3.left" timestamp="1589807082318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.3.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
-    <state width="1899" height="355" key="GridCell.Tab.3.left/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543039" />
-    <state width="1899" height="355" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431358" />
-    <state width="1899" height="355" key="GridCell.Tab.3.right" timestamp="1588164836074">
+    <state width="1899" height="355" key="GridCell.Tab.3.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057578" />
+    <state width="1899" height="355" key="GridCell.Tab.3.left/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503258" />
+    <state width="1899" height="355" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082318" />
+    <state width="1899" height="355" key="GridCell.Tab.3.right" timestamp="1589807082319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.3.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588164836074" />
-    <state width="1899" height="355" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529543039" />
-    <state width="1899" height="355" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586438431358" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1585186719912">
+    <state width="1899" height="355" key="GridCell.Tab.3.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713057578" />
+    <state width="1899" height="355" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588773503258" />
+    <state width="1899" height="355" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589807082319" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1588771228307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1585186719912" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588168483189">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588771228307" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589713036293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588168483189" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589713036293" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529540956" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589291367919" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1586529514467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586529514467" />
-    <state x="636" y="119" width="647" height="801" key="find.popup" timestamp="1588081636800">
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589118131910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589118131910" />
+    <state x="-1920" y="6" width="1516" height="885" key="dock-window-1" timestamp="1588770414872">
+      <screen x="-1920" y="6" width="1536" height="824" />
+    </state>
+    <state x="-1920" y="6" width="1516" height="885" key="dock-window-1/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588770414872" />
+    <state x="-1886" y="6" width="1516" height="885" maximized="true" key="dock-window-2" timestamp="1588770795981">
+      <screen x="-1920" y="6" width="1536" height="824" />
+    </state>
+    <state x="-1886" y="6" width="1516" height="885" maximized="true" key="dock-window-2/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588770795981" />
+    <state x="636" y="119" width="647" height="801" key="find.popup" timestamp="1588772415934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="119" width="647" height="801" key="find.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588081636800" />
-    <state x="636" y="119" width="647" height="801" key="find.popup/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586527769526" />
+    <state x="636" y="119" width="647" height="801" key="find.popup/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588772415934" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1588165590863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588165590863" />
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586157209213" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586155791738">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589704125120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1586155791738" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589704125120" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.6.1536.824@0.0.1920.1040" timestamp="1588771528979" />
   </component>
 </project>
