@@ -23,7 +23,7 @@
         name: "SysBasic",
         data(){
             return {
-                activeName:'first'
+                activeName:'depmana'
             }
         },
         //组件注册
