@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="Login">
         <el-form :rules="rules" ref="loginForm" :model="loginForm" class="loginContainer">
             <h3 class="loginTitle">系统登录</h3>
             <el-form-item label="用户名" prop="pass">
@@ -64,6 +64,9 @@
     }
 </script>
 <style>
+    .Login{
+        background: #409eff;
+    }
     .loginContainer{
         border-radius: 15px;
         background-clip:padding-box;
@@ -76,7 +79,7 @@
     }
     .loginTitle{
         /*上右下左*/
-        margin: 0px auto 40px auto;
+        margin: 0px auto 60px auto;
         text-align: center;
     }
     .loginRemember{
