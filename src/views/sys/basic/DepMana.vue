@@ -58,7 +58,7 @@
 </template>
 
 <script>
-    import {getRequest, postRequest} from "@/utils/api";
+    import {deleteRequest, getRequest, postRequest} from "@/utils/api";
 
     export default {
         name: "DepMana",
@@ -83,6 +83,42 @@
           this.initDeps();
         },
         methods: {
+            removeDepFormDeps(deps,id){
+                for (let i=0;i<deps.length;i++){
+                    let d = deps[i];
+                    if (d.id == id){
+                        deps.span(i,1);
+                        return;
+                    }else {
+                        this.removeDepFormDeps(d.chrildren,id);
+                    }
+                }
+
+            },
+
+            deleteDep(data){
+                //其实是isParent
+                if (data.parent) {
+                    this.$message.error("父部门删除失败");
+                }else {
+                    this.$confirm('此操作将永久删除【' + data.name + '】, 是否继续?', '提示', {
+                        confirmButtonText: '确定',
+                        cancelButtonText: '取消',
+                        type: 'warning'
+                    }).then(() => {
+                        deleteRequest("/system/basic/department/"+data.id).then(resp => {
+                            if (resp){
+                                this.removeDepFormDeps(this.deps,data.id)
+                            }
+                        })
+                    }).catch(() => {
+                        this.$message({
+                            type : 'info',
+                            message : '已取消删除'
+                        })
+                    })
+                }
+            },
             //初始化变量，置空二次点击添加部门按钮input框中的数据
             initDep(){
                 this.dep={
@@ -117,8 +153,6 @@
                 this.pname = data.name;
                 this.dep.parentId = data.id;
                 this.dialogVisible = true
-            },
-            deleteDep(data){
             },
           initDeps(){
               getRequest("/system/basic/department/").then(resp => {
