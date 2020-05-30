@@ -22,6 +22,7 @@
                         <el-switch
                                 v-model="hr.enabled"
                                 active-text="启用"
+                                @change = "enabledChange(hr)"
                                 inactive-text="禁用"
                                 active-color="#13ce66"
                                 inactive-color="#ff4949">
@@ -41,7 +42,7 @@
 </template>
 
 <script>
-    import {getRequest} from "@/utils/api";
+    import {getRequest, putRequest} from "@/utils/api";
 
     export default {
         name: "SysHr",
@@ -55,6 +56,21 @@
             this.initHrs();
         },
         methods:{
+            enabledChange(hr){
+                // console.log(hr)
+                /**
+                 * 删掉前端往后端传输的数据：
+                 * 由于前端需要往后端传递的数据中有一个roles集合
+                 * 但是后端的mapper里并未对集合做处理
+                 * 如果不删除roles的话，请求后端500异常
+                 */
+                delete hr.roles;
+                putRequest("/system/hr/",hr).then(resp => {
+                    if (resp){
+                        this.initHrs();
+                    }
+                })
+            },
             initHrs(){
                 getRequest("/system/hr/").then(resp =>{
                     if (resp){
