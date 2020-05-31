@@ -14,6 +14,7 @@
                     <img :src="hr.userface" :alt="hr.name" :title="hr.name" class="userface-img">
                 </div>
                 <div class="userinfo-container">
+                    <div>id:{{hr.id}}</div>
                     <div>用户名:{{hr.name}}</div>
                     <div>手机号码:{{hr.phone}}</div>
                     <div>电话号码:{{hr.telephone}}</div>
@@ -66,6 +67,7 @@
                  */
                 delete hr.roles;
                 putRequest("/system/hr/",hr).then(resp => {
+                    console.log(resp)
                     if (resp){
                         this.initHrs();
                     }
