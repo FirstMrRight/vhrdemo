@@ -83,40 +83,40 @@
           this.initDeps();
         },
         methods: {
-            removeDepFormDeps(deps,id){
-                for (let i=0;i<deps.length;i++){
+            removeDepFromDeps(p,deps, id) {
+                for(let i=0;i<deps.length;i++){
                     let d = deps[i];
-                    if (d.id == id){
-                        deps.span(i,1);
+                    if (d.id == id) {
+                        deps.splice(i, 1);
+                        if (deps.length == 0) {
+                            p.parent = false;
+                        }
                         return;
-                    }else {
-                        this.removeDepFormDeps(d.chrildren,id);
+                    }else{
+                        this.removeDepFromDeps(d,d.children, id);
                     }
                 }
-
             },
-
-            deleteDep(data){
-                //其实是isParent
+            deleteDep(data) {
                 if (data.parent) {
                     this.$message.error("父部门删除失败");
-                }else {
-                    this.$confirm('此操作将永久删除【' + data.name + '】, 是否继续?', '提示', {
+                } else {
+                    this.$confirm('此操作将永久删除【' + data.name + '】部门, 是否继续?', '提示', {
                         confirmButtonText: '确定',
                         cancelButtonText: '取消',
                         type: 'warning'
                     }).then(() => {
-                        deleteRequest("/system/basic/department/"+data.id).then(resp => {
-                            if (resp){
-                                this.removeDepFormDeps(this.deps,data.id)
+                        deleteRequest("/system/basic/department/"+data.id).then(resp=>{
+                            if (resp) {
+                                this.removeDepFromDeps(null,this.deps,data.id);
                             }
                         })
                     }).catch(() => {
                         this.$message({
-                            type : 'info',
-                            message : '已取消删除'
-                        })
-                    })
+                            type: 'info',
+                            message: '已取消删除'
+                        });
+                    });
                 }
             },
             //初始化变量，置空二次点击添加部门按钮input框中的数据
@@ -128,23 +128,36 @@
                 this.pname = '';
             },
             //防止部门添加完成后部门树自动关闭，给数组动态刷新元素，实现动态刷新
-            addDep2Deps(deps,dep){
-                for (let i=0;i<deps.length;i++){
+            addDep2Deps(deps, dep) {
+                for (let i = 0; i < deps.length; i++) {
                     let d = deps[i];
-                    if (d.id == dep.parentId){
-                        d.chrildren = d.chrildren.concat(dep);
+
+                    if (d.id == dep.parentId) {
+                        //数组拼接
+                        d.children = d.children.concat(dep);
+                        if (d.children.length > 0) {
+                            d.parent = true;
+                        }
                         return;
-                    }else {
-                        this.addDep2Deps(d.chrildren,d.dep)
+                    } else {
+                        //查询deps的子项有没有是dep的父级id的
+                        this.addDep2Deps(d.children, dep);
                     }
                 }
             },
             doAddDep(){
                 postRequest("/system/basic/department/",this.dep).then(resp => {
                     if (resp){
-                        this.addDep2Deps(this.deps,resp.obj)
-                        this.initDeps();
+                        /**
+                         * 返回的resp中有一个obj
+                         * 动态往树里边添加数据
+                         * 递归方式动态操作数组
+                         * deps:整个树的数据源
+                         * addDep2Deps目的就是把新添加的一天部门数据插入到Deps中一个合适的位置
+                         */
+                        this.addDep2Deps(this.deps,resp.obj);
                         this.dialogVisible = false;
+                        //初始化变量
                         this.initDep();
                     }
                 })
