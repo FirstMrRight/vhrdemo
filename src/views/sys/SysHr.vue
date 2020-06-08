@@ -108,7 +108,6 @@
                 roles.forEach(r => {
                     this.selectroles.push(r.id);
                 })
-                console.log(hr)
             },
             enabledChange(hr) {
                 delete hr.roles;
@@ -122,7 +121,6 @@
                getRequest("/system/hr/roles/").then(resp => {
                     if (resp) {
                         this.allroles = resp;
-                        console.log(this.allroles)
                     }
                 })
             },
@@ -130,7 +128,6 @@
                getRequest("/system/hr/?keywords="+this.keywords).then(resp => {
                     if (resp) {
                         this.hrs = resp;
-                        console.log(this.hrs)
                     }
                 })
             }
