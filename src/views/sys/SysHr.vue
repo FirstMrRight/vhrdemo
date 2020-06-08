@@ -1,91 +1,149 @@
 <template>
-<div>
-    <div style="margin-top: 10px;display: flex;justify-content: center">
-        <el-input v-model ="keywords" placeholder="通过用户名搜索用户..." prefix-icon="el-icon-search" style="width: 400px;margin-right: 10px"></el-input>
-        <el-button icon="el-icon-search" type="primary">搜索</el-button>
-    </div>
-    <div class="hr-container">
+    <div>
+        <div style="margin-top: 10px;display: flex;justify-content: center">
+            <el-input v-model="keywords" placeholder="通过用户名搜索用户..." prefix-icon="el-icon-search"
+                      style="width: 400px;margin-right: 10px" @keydown.enter.native="doSearch"></el-input>
+            <el-button icon="el-icon-search" type="primary" @click="doSearch">搜索</el-button>
+        </div>
+        <div class="hr-container">
             <el-card class="hr-card" v-for="(hr,index) in hrs" :key="index">
                 <div slot="header" class="clearfix">
                     <span>{{hr.name}}</span>
-                    <el-button style="float: right; padding: 3px 0;color: red" type="text" icon="el-icon-delete"></el-button>
+                    <el-button style="float: right; padding: 3px 0;color: #e30007;" type="text"
+                               icon="el-icon-delete" @click="deleteHr(hr)"></el-button>
                 </div>
-                <div class="img-container">
-                    <img :src="hr.userface" :alt="hr.name" :title="hr.name" class="userface-img">
-                </div>
-                <div class="userinfo-container">
-                    <div>id:{{hr.id}}</div>
-                    <div>用户名:{{hr.name}}</div>
-                    <div>手机号码:{{hr.phone}}</div>
-                    <div>电话号码:{{hr.telephone}}</div>
-                    <div>地址:{{hr.address}}</div>
-                    <div>用户状态:
-                        <el-switch
-                                v-model="hr.enabled"
-                                active-text="启用"
-                                @change = "enabledChange(hr)"
-                                inactive-text="禁用"
-                                active-color="#13ce66"
-                                inactive-color="#ff4949">
-                        </el-switch>
+                <div>
+                    <div class="img-container">
+                        <img :src="hr.userface" :alt="hr.name" :title="hr.name" class="userface-img">
                     </div>
-                    <div>用户角色:
-                        <el-tag type="success" style="margin-right: 4px" v-for="(role,indexj) in hr.roles"
-                                :key="indexj">{{role.nameZh}}
-                        </el-tag>
-                        <el-button icon="el-icon-more" type="text"></el-button>
+                    <div class="userinfo-container">
+                        <div>用户名：{{hr.name}}</div>
+                        <div>手机号码：{{hr.phone}}</div>
+                        <div>电话号码：{{hr.telephone}}</div>
+                        <div>地址：{{hr.address}}</div>
+                        <div>用户状态：
+                            <el-switch
+                                    v-model="hr.enabled"
+                                    active-text="启用"
+                                    @change="enabledChange(hr)"
+                                    active-color="#13ce66"
+                                    inactive-color="#ff4949"
+                                    inactive-text="禁用">
+                            </el-switch>
+                        </div>
+
+
+                        <div class="hrrole">
+                            <i class="el-icon-user-solid"></i>:
+                            <el-tag size="mini" effect="dark" type="success" v-for="(role,indexj) in hr.roles" :key="indexj">{{role.nameZh}}</el-tag>
+                            <el-popover
+                                    placement="right"
+                                    title="角色列表"
+                                    width="200"
+                                    @show="showPop(hr)"
+                                    trigger="click">
+                                <el-select v-model="selectroles" placeholder="请选择" multiple>
+                                    <el-option
+                                            v-for="(r,indexk) in allroles"
+                                            :key="indexk"
+                                            :label="r.nameZh"
+                                            :value="r.id">
+                                    </el-option>
+                                </el-select>
+                                <el-button icon="el-icon-more" size="mini" type="text" slot="reference"></el-button>
+                            </el-popover>
+
+                        </div>
+
+                        <div>备注：{{hr.remark}}</div>
                     </div>
-                    <div>备注：{{hr.remark}}</div>
                 </div>
             </el-card>
+        </div>
     </div>
-</div>
 </template>
 
 <script>
-    import {getRequest, putRequest} from "@/utils/api";
+    import {deleteRequest, getRequest, putRequest} from "@/utils/api";
 
     export default {
         name: "SysHr",
-        data(){
-            return{
-                keywords:'',
-                hrs:[],
+        data() {
+            return {
+                keywords: '',
+                hrs: [],
+                selectroles:[],
+                allroles: []
             }
         },
-        mounted(){
+        mounted() {
             this.initHrs();
         },
-        methods:{
-            enabledChange(hr){
-                // console.log(hr)
-                /**
-                 * 删掉前端往后端传输的数据：
-                 * 由于前端需要往后端传递的数据中有一个roles集合
-                 * 但是后端的mapper里并未对集合做处理
-                 * 如果不删除roles的话，请求后端500异常
-                 */
+        methods: {
+            deleteHr(hr) {
+                this.$confirm('此操作将永久删除【'+hr.name+'】, 是否继续?', '提示', {
+                    confirmButtonText: '确定',
+                    cancelButtonText: '取消',
+                    type: 'warning'
+                }).then(() => {
+                    deleteRequest("/system/hr/"+hr.id).then(resp=>{
+                        if (resp) {
+                            this.initHrs();
+                        }
+                    })
+                }).catch(() => {
+                    this.$message({
+                        type: 'info',
+                        message: '已取消删除'
+                    });
+                });
+            },
+            doSearch() {
+                this.initHrs();
+            },
+            showPop(hr) {
+                this.initAllRoles();
+                let roles = hr.roles;
+                this.selectroles = [];
+                roles.forEach(r => {
+                    this.selectroles.push(r.id);
+                })
+                console.log(hr)
+            },
+            enabledChange(hr) {
                 delete hr.roles;
-                putRequest("/system/hr/",hr).then(resp => {
-                    console.log(resp)
-                    if (resp){
+                putRequest("/system/hr/", hr).then(resp => {
+                    if (resp) {
                         this.initHrs();
                     }
                 })
             },
-            initHrs(){
-                getRequest("/system/hr/").then(resp =>{
-                    if (resp){
-                        this.hrs = resp;
+            initAllRoles() {
+               getRequest("/system/hr/roles/").then(resp => {
+                    if (resp) {
+                        this.allroles = resp;
+                        console.log(this.allroles)
                     }
-
+                })
+            },
+            initHrs() {
+               getRequest("/system/hr/?keywords="+this.keywords).then(resp => {
+                    if (resp) {
+                        this.hrs = resp;
+                        console.log(this.hrs)
+                    }
                 })
             }
         }
     }
-</script>
 
+
+</script>
 <style>
+    .hrrole span{
+        margin-right: 5px;
+        margin-top: 5px;
+    }
     .userinfo-container div {
         font-size: 12px;
         color: #409eff;
