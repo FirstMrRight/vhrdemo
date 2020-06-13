@@ -41,6 +41,7 @@
                                     title="角色列表"
                                     width="200"
                                     @show="showPop(hr)"
+                                    @hide="hidePop(hr)"
                                     trigger="click">
                                 <el-select v-model="selectroles" placeholder="请选择" multiple>
                                     <el-option
@@ -101,6 +102,54 @@
             doSearch() {
                 this.initHrs();
             },
+            hidePop(hr) {
+                /*
+                * 不做判断的话，如果取消当前用户的一个角色，
+                * 再选中另一个没有选中的角色，不会走更新的请求，
+                * 所以这个地方需要如下逻辑进行判断
+                *
+                * */
+                let roles = [];
+                Object.assign(roles, hr.roles);
+                let flag = false;
+                if (roles.length != this.selectroles.length) {
+                    flag = true;
+                } else {
+                    //roles里边保存的是对象，selectroles里保存的是id，所以只能通过循环的方式去对比
+                    for (let i = 0; i < roles.length; i++) {
+                        let role = roles[i];
+                        for (let j = 0; j < this.selectroles.length; j++) {
+                            let sr = this.selectroles[j];
+                            //判断roles的id和selectroles的id是否相同
+                            if (role.id == sr) {
+                                //选中的角色中有roles的id，移除一个数据
+                                roles.splice(i, 1);//移除
+                                //移除的话，数组的下标改变了，少了一个元素,遍历会跳过一个元素，i--使下标一致
+                                i--;
+                                break;
+                            }
+                        }
+                    }
+                    if (roles.length != 0) {
+                        flag = true;
+                    }
+                }
+
+            /**
+             * 当点中下拉列表时，不改变selected的情况下，不发送update请求，改变，发送
+             */
+            if (flag) {
+                let url = '/system/hr/role?hrid=' + hr.id;
+                this.selectroles.forEach(sr => {
+                    url += '&rids=' + sr;
+                });
+                putRequest(url).then(resp => {
+                    if (resp) {
+                        this.initHrs();
+                    }
+                });
+            }
+        },
             showPop(hr) {
                 this.initAllRoles();
                 let roles = hr.roles;
