@@ -153,6 +153,7 @@ export default {
                     enabled:false
                 },
                 multipleSelection: [],
+                loading:false,
             }
         },
     mounted() {
@@ -160,7 +161,9 @@ export default {
     },
         methods: {
             initJls() {
+                this.loading = true;
                 getRequest("/system/basic/joblevel/").then(resp => {
+                    this.loading = false;
                     if (resp){
                         this.jls = resp;
                         this.jl = {

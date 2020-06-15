@@ -16,6 +16,10 @@
                 <el-table
                         :data="positions"
                         border
+                        v-loading="loading"
+                        element-loading-text="正在加载..."
+                        element-loading-spinner="el-icon-loading"
+                        element-loading-background="rgba(0, 0, 0, 0.8)"
                         @selection-change="handleSelectionChange"
                         size="small"
                         stripe
@@ -73,9 +77,6 @@
                         <el-tag>职位名称</el-tag>
                         <el-input class="updatePosInput" size="small" v-model="updatePos.name"></el-input>
                     </div>
-<!--                    <div>-->
-<!--                        <el-tag>是否启用</el-tag>-->
-<!--                    </div>-->
                 </div>
                 <span slot="footer" class="dialog-footer">
     <el-button size="small" @click="dialogVisible = false">取 消</el-button>
@@ -96,6 +97,7 @@
         name: "PosMana",
         data(){
             return{
+                loading:false,
                 pos:{
                     name:'',
                 },
@@ -192,7 +194,9 @@
                 this.dialogVisible=true;
             },
             initPositions(){
+                this.loading = true;
                 getRequest("/system/basic/pos/").then(resp=>{
+                    this.loading=false;
                     if (resp){
                         this.positions=resp;
                     }
