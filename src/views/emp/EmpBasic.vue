@@ -1,10 +1,209 @@
 <template>
-<div>基本资料</div>
+    <div>
+        <div style="display: flex;justify-content: space-between">
+            <div>
+                <el-input aria-placeholder="请输入员工姓名进行搜索，可以直接回车搜索..." prefix-icon="el-icon-search"
+                          style="width: 300px;margin-right: 10px"></el-input>
+                <el-button icon="el-icon-search" type="primary">搜索</el-button>
+                <el-button type="primary">
+                    <i class="fa fa-angle-double-down" aria-hidden="true"></i>高级搜索
+                </el-button>
+            </div>
+            <div>
+                <el-button type="success">
+                    <i class="fa fa-level-up" aria-hidden="true"></i>
+                    导入数据
+                </el-button>
+                <el-button type="primary">
+                    <i class="fa fa-level-down" aria-hidden="true"></i>
+                    导出数据
+                </el-button>
+                <el-button type="primary" icon="el-icon-plus">
+                    添加用户
+                </el-button>
+            </div>
+        </div>
+        <!-- el-table开始    fixed  表格冻结-->
+        <div style="margin-top: 10px">
+            <el-table
+                    :data="emps"
+                    stripe
+                    border
+                    style="width: 100%">
+                <el-table-column
+                        width="55"
+                        type="selection">
+                </el-table-column>
+                <el-table-column
+                        prop="name"
+                        fixed
+                        align="left"
+                        label="姓名"
+                        width="90">
+                </el-table-column>
+                <el-table-column
+                        prop="workID"
+                        label="工号"
+                        align="left"
+                        width="85">
+                </el-table-column>
+                <el-table-column
+                        prop="birthday"
+                        align="left"
+                        width="85"
+                        label="出生日期">
+                </el-table-column>
+                <el-table-column
+                        prop="idCard"
+                        align="left"
+                        width="150"
+                        label="身份证号码">
+                </el-table-column>
+                <el-table-column
+                        prop="wedLock"
+                        align="left"
+                        width="85"
+                        label="婚姻状况">
+                </el-table-column>
+                <el-table-column
+                        prop="nation.name"
+                        align="left"
+                        width="50"
+                        label="民族">
+                </el-table-column>
+                <el-table-column
+                        prop="nativePlace"
+                        align="left"
+                        width="80"
+                        label="籍贯">
+                </el-table-column>
+                <el-table-column
+                        prop="politicsstatus.name"
+                        align="left"
+                        label="政治面貌">
+                </el-table-column>
+                <el-table-column
+                        prop="email"
+                        align="left"
+                        width="180"
+                        label="电子邮件">
+                </el-table-column>
+                <el-table-column
+                        prop="phone"
+                        align="left"
+                        width="100"
+                        label="电话号码">
+                </el-table-column>
+                <el-table-column
+                        prop="address"
+                        align="left"
+                        width="220"
+                        label="联系地址">
+                </el-table-column>
+                <el-table-column
+                        prop="department.name"
+                        align="left"
+                        width="100"
+                        label="所属部门">
+                </el-table-column>
+                <el-table-column
+                        prop="position.name"
+                        align="left"
+                        width="100"
+                        label="职位">
+                </el-table-column>
+                <el-table-column
+                        prop="jobLevel.name"
+                        width="100"
+                        label="职称">
+                </el-table-column>
+                <el-table-column
+                        prop="engageForm"
+                        width="100"
+                        align="left"
+                        label="聘用形式">
+                </el-table-column>
+                <el-table-column
+                        prop="tiptopDegree"
+                        width="80"
+                        align="left"
+                        label="最高学历">
+                </el-table-column>
+                <el-table-column
+                        prop="specialty"
+                        width="150"
+                        align="left"
+                        label="专业">
+                </el-table-column>
+                <el-table-column
+                        prop="school"
+                        width="150"
+                        align="left"
+                        label="毕业院校">
+                </el-table-column>
+                <el-table-column
+                        prop="beginDate"
+                        width="95"
+                        align="left"
+                        label="入职日期">
+                </el-table-column>
+                <el-table-column
+                        prop="conversionTime"
+                        width="95"
+                        align="left"
+                        label="转正日期">
+                </el-table-column>
+                <el-table-column
+                        prop="beginContract"
+                        width="95"
+                        align="left"
+                        label="合同起始日期">
+                </el-table-column>
+                <el-table-column
+                        prop="endContract"
+                        width="95"
+                        align="left"
+                        label="合同截止日期">
+                </el-table-column>
+                <el-table-column
+                        width="100"
+                        align="left"
+                        label="合同期限">
+                </el-table-column>
+                <el-table-column
+                        label="操作">
+                    <template slot-scope="scope">
+                        <el-button>编辑</el-button>
+                        <el-button type="primary">查看高级资料</el-button>
+                        <el-button type="error">删除</el-button>
+                    </template>
+                </el-table-column>
+            </el-table>
+        </div>
+    </div>
 </template>
 
 <script>
+    import {getRequest} from "@/utils/api";
+
     export default {
-        name: "EmpBasic"
+        name: "EmpBasic",
+        data(){
+            return{
+                emps:[],
+            }
+        },
+        mounted(){
+            this.initEmps();
+        },
+        methods: {
+            //todo:员工基本资料页面绘制，数据显示，样式还需要再调试
+            initEmps() {
+                getRequest("/emp/basic/").then(resp => {
+                    this.emps = resp.data;
+                })
+            }
+        }
     }
 </script>
 
