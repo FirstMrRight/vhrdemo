@@ -29,6 +29,10 @@
                     :data="emps"
                     stripe
                     border
+                    v-loading="loading"
+                    element-loading-text="正在加载..."
+                    element-loading-spinner="el-icon-loading"
+                    element-loading-background="rgba(0, 0, 0, 0.8)"
                     style="width: 100%">
                 <el-table-column
                         width="55"
@@ -50,7 +54,7 @@
                 <el-table-column
                         prop="birthday"
                         align="left"
-                        width="85"
+                        width="140"
                         label="出生日期">
                 </el-table-column>
                 <el-table-column
@@ -169,16 +173,31 @@
                         width="100"
                         align="left"
                         label="合同期限">
+                    <template slot-scope="scope">
+                        <el-tag>{{scope.row.contractTerm}}</el-tag>
+                        年
+                    </template>
                 </el-table-column>
                 <el-table-column
+                        fixed="right"
+                        width="200"
                         label="操作">
                     <template slot-scope="scope">
-                        <el-button>编辑</el-button>
-                        <el-button type="primary">查看高级资料</el-button>
-                        <el-button type="error">删除</el-button>
+                        <el-button style="padding: 3px">编辑</el-button>
+                        <el-button style="padding: 3px" type="primary">查看高级资料</el-button>
+                        <el-button style="padding: 3px" type="error">删除</el-button>
                     </template>
                 </el-table-column>
             </el-table>
+            <!--ElementUI分页插件开始-->
+            <el-pagination
+                    background
+                    @current-change="currentChange"
+                    @size-change="sizeChange"
+                    layout="sizes, prev, pager, next, jumper, ->, total, slot"
+                    :total="total">
+            >
+            </el-pagination>
         </div>
     </div>
 </template>
@@ -188,19 +207,36 @@
 
     export default {
         name: "EmpBasic",
-        data(){
-            return{
-                emps:[],
+        data() {
+            return {
+                emps: [],
+                loading: false,
+                total: 0,
+                page: 1,
+                size: 10,
             }
         },
-        mounted(){
+        mounted() {
+            this.loading = true;
             this.initEmps();
         },
         methods: {
-            //todo:员工基本资料页面绘制，数据显示，样式还需要再调试
+            sizeChange(){
+                this.size = currentSize;
+                this.initEmps();
+            },
+            currentChange(currentPage) {
+                this.page = currentPage;
+                this.initEmps();
+            },
             initEmps() {
-                getRequest("/emp/basic/").then(resp => {
-                    this.emps = resp.data;
+                this.loading = false;
+                getRequest("/emp/basic/?page=" + this.page + "&size="+this.size).then(resp => {
+                    if (resp) {
+                        this.emps = resp.data;
+                        this.total = resp.total;
+                    }
+
                 })
             }
         }
