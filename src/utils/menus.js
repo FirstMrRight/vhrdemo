@@ -11,26 +11,27 @@ import store from "@vue/cli-service/generator/vuex/template/src/store";
  * @param store
  */
 
-export const initMenu=(router,store)=>{
+export const initMenu = (router, store) => {
     //如果用户按F5,state中没有值，所以重新赋值，如果有值，就是用户正常点击跳转
-    if (store.state.length>0)
+    if (store.state.length > 0)
         return;
     //服务端返回的数据是字符串,需要格式化
-    getRequest("/system/config/menu").then(data=>{
-        if (data){
-            let fmtRoutes=formatRoutes(data);
+    getRequest("/system/config/menu").then(data => {
+        if (data) {
+            //格式化后端传递的对象数据
+            let fmtRoutes = formatRoutes(data);
             router.addRoutes(fmtRoutes);
             //调用store的方法
-            store.commit('initRoutes',fmtRoutes)
+            store.commit('initRoutes', fmtRoutes)
         }
     })
 }
 
 
 //遍历,批量的遍历定义
-export const formatRoutes=(routes)=>{
-    let fmRoutes =[];
-    routes.forEach(router=>{
+export const formatRoutes = (routes) => {
+    let fmRoutes = [];
+    routes.forEach(router => {
         let {
             path,
             component,
@@ -38,18 +39,18 @@ export const formatRoutes=(routes)=>{
             meta,
             iconCls,
             children,
-        }=router
-        if (children&&children instanceof Array){
+        } = router
+        if (children && children instanceof Array) {
             //满足有children且children是一个Array形式的数组，说明是二级菜单，重新赋值
             children = formatRoutes(children)
         }
-        let fmRouter={
-            path:path,
-            name:name,
-            iconCls:iconCls,
-            meta:meta,
+        let fmRouter = {
+            path: path,
+            name: name,
+            iconCls: iconCls,
+            meta: meta,
             children: children,
-            //动态加载
+            //动态加载组件（页面）
             component(resolve) {
                 if (component.startsWith("Home")) {
                     require(['../views/' + component + '.vue'], resolve);
