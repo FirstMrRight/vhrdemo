@@ -1346,7 +1346,7 @@
                     cancelButtonText: '取消',
                     type: 'warning'
                 }).then(() => {
-                    deleteRequest("/employee/basic/" + data.id).then(resp => {
+                    deleteRequest("/emp/basic/" + data.id).then(resp => {
                         if (resp) {
                             this.initEmps();
                         }
@@ -1362,7 +1362,7 @@
                 if (this.emp.id) {
                     this.$refs['empForm'].validate(valid => {
                         if (valid) {
-                           putRequest("/employee/basic/", this.emp).then(resp => {
+                           putRequest("/emp/basic/", this.emp).then(resp => {
                                 if (resp) {
                                     this.dialogVisible = false;
                                     this.initEmps();
@@ -1373,7 +1373,7 @@
                 } else {
                     this.$refs['empForm'].validate(valid => {
                         if (valid) {
-                            postRequest("/employee/basic/", this.emp).then(resp => {
+                            postRequest("/emp/basic/", this.emp).then(resp => {
                                 if (resp) {
                                     this.dialogVisible = false;
                                     this.initEmps();
